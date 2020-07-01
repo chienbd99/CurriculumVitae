@@ -1,0 +1,215 @@
+*{margin: 0; padding: 0;}
+
+.nut i.fa.fa {
+	cursor: pointer;
+	font-size: 45px;
+	padding: 20px 0;
+	width: 60px;
+	transition: 0.4s;
+}
+
+.nut {
+    width: 6%;
+    float: left;
+    margin: 5% 5%;
+    background-color: #1f6e94;
+    height: auto;
+    border-radius: 30px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10%;
+    padding: 15px 0;
+}
+
+.resume .right {
+    margin-top: 10%;
+    color: #f5f5f5;
+}
+
+.resume .left {
+    margin-top: 10%;
+    color: #f5f5f5;
+    border-right: 3px solid #e2bb9c;
+}
+
+.resume h4 {
+    margin: 10px;
+    color: #f5f5f5;
+    font-size: 25px;
+}
+
+.resume h2 {
+    color: #e2bb9c;
+    font-size: 40px;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+}
+
+.resume .skill {
+    width: 50%;
+    float: right;
+    margin-top: 40px;
+}
+
+
+.resume .education {
+    width: 50%;
+    height: auto;
+    margin-top: 40px;
+    float: left;
+}
+
+.aboutme .right {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.aboutme p {
+    color: #f5f5f5;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.aboutme h4 {
+    width: 80px;
+    margin: auto;
+    color: #e2bb9c;
+}
+
+.aboutme .right {
+    width: 40%;
+    float: right;
+}
+
+.aboutme h3 {
+    font-size: 35px;
+    color: #e2bb9c;
+    border-bottom: 2px solid;
+    width: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.aboutme h2 {color: #f5f5f5;font-size: 35px;}
+
+.aboutme .left {
+    width: 60%;
+    height: auto;
+    font-size: 20px;
+    float: left;
+    color: #f5f5f5;
+    padding: 0 10px;
+    border-right: 2px solid #e2bc98;
+}
+
+.home h2 {
+    color: #f5f5f5;
+    font-size: 45px;
+    line-height: 74px;
+    margin-top: 25%;
+}
+
+.home p {
+    font-size: 25px;
+    color: #f5f5f5;
+}
+
+.aboutme {
+    width: 100%;
+    height: 100%;
+}
+
+.info .home,.aboutme,.resume,.contact {
+    width: 100%;
+    height: 100%;
+    background-color: #578088;
+    border-radius: 30px;
+    text-align: center;
+    font-family: initial;
+}
+
+.background .info {
+    width: 65%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+i.fa {
+    padding: 10px;
+}
+
+.face .lienket {
+    font-size: 25px;
+    color: #f5f5f5;
+}
+
+.face p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #bbb;
+}
+
+h3.ten {}
+
+.face h3.ten {
+    margin-top: 95px;
+    font-weight: 600;
+    color: #f5f5f5;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    transform: translateY(60px);
+}
+
+.face .avatar {
+    background-image: url("images/avatar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.face {
+    width: 35%;
+    text-align: center;
+    height: 100%;
+    font-family: sans-serif;
+    float: left;
+} 
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background-image: url("images/background.jpg");
+	overflow: hidden;
+}
+.background{
+	width: 79%;
+	height: 70%;
+	background-color: #114962;
+	border-radius: 30px;
+	margin: 5% 0;
+	float: left;
+	margin-left: 5%;
+}
+.home,.aboutme,.resume,.contact{
+	position: absolute;
+	opacity: 0;
+	transition: 0.4s;
+}
+.active{
+	opacity: 1;
+	z-index: 100;
+}
+.nut i.fa.fa:hover{
+	transform: scale(1.5);
+}
+.activenut{
+	border-bottom: 2px solid;
+}
