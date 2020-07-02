@@ -4,7 +4,7 @@
 	cursor: pointer;
 	font-size: 45px;
 	padding: 20px 0;
-	width: 60px;
+	width: 100%;
 	transition: 0.4s;
 }
 
@@ -212,4 +212,39 @@ body{
 }
 .activenut{
 	border-bottom: 2px solid;
+}
+@media (max-width: 576px){
+	.nut i.fa.fa{
+		font-size: 20px;
+		width: 20px;
+	}
+	.background{
+		height: 100%;
+		width: 88%;
+	}
+	.nut{
+		float:right;
+		margin: 5% 0;
+	}
+	.aboutme,.resume,.contact{
+		height:100%;
+	}
+	.face .avatar{
+		width: 100px;
+		height: 100px;
+	}
+	.background .face h3{
+		font-size:20px;
+	}
+	.aboutme p{
+		text-align:center;
+		width:auto;
+		display: block;
+	}
+	body{
+		overflow:unset;
+	}
+	.resume h2{
+		font-size:25px;
+	}
 }
