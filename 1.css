@@ -1,11 +1,61 @@
 *{margin: 0; padding: 0;}
 
+.contact button.btn.btn-danger {
+    background-color: #7cb2bd;
+}
+
+.facebook a {color: #eee;}
+
+
+p {
+    color: #eee;
+    display: inline;
+}
+
+i.fa.fa {
+    font-size: 28px;
+    color: #eee;
+}
+
+.contact .right div {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    background: #789ca2;
+    margin-top: 10px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+}
+
+.contact .right {
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.contact .left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    border-radius: 30px;
+}
+
 .nut i.fa.fa {
-	cursor: pointer;
-	font-size: 45px;
-	padding: 20px 0;
-	width: 100%;
-	transition: 0.4s;
+    cursor: pointer;
+    font-size: 45px;
+    padding: 20px 0;
+    width: 100%;
+    transition: 0.4s;
 }
 
 .nut {
@@ -178,79 +228,79 @@ i.fa {
     float: left;
 } 
 html,body{
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 body{
-	background-image: url("images/background.jpg");
-	overflow: hidden;
+    background-image: url("images/background.jpg");
+    overflow: hidden;
 }
 .background{
-	width: 79%;
-	height: 70%;
-	background-color: #114962;
-	border-radius: 30px;
-	margin: 5% 0;
-	float: left;
-	margin-left: 5%;
+    width: 79%;
+    height: 70%;
+    background-color: #114962;
+    border-radius: 30px;
+    margin: 5% 0;
+    float: left;
+    margin-left: 5%;
 }
 .home,.aboutme,.resume,.contact{
-	position: absolute;
-	transition: 0.4s;
+    position: absolute;
+    transition: 0.4s;
     opacity: 0;
 
 }
 .active{
-	opacity: 1;
+    opacity: 1;
 }
 .nut i.fa.fa:hover{
-	transform: scale(1.5);
+    transform: scale(1.5);
 }
 .activenut{
-	border-bottom: 2px solid;
+    border-bottom: 2px solid;
 }
 @media (max-width: 576px){
-	*{
-		margin: 0;
-		padding: 0;
-	}
-	.nut i.fa.fa{
-		font-size: 20px;
-		width: 20px;
-	}
-	.background{
-		height: 100%;
-		width: 88%;
-	}
-	.nut{
-		float:right;
-		margin: 5% 0;
-	}
-	.aboutme,.resume,.contact{
-		height:100%;
-	}
-	.face .avatar{
-		width: 100px;
-		height: 100px;
-	}
-	.background .face h3{
-		font-size:20px;
-	}
-	.aboutme p{
-		text-align:center;
-		width:auto;
-		display: block;
-	}
-	body{
-		overflow:unset;
-		width: 100%;
-		height: 100%;
-	}
-	.resume h2{
-		font-size:25px;
-	}
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .nut i.fa.fa{
+        font-size: 20px;
+        width: 20px;
+    }
+    .background{
+        height: 100%;
+        width: 88%;
+    }
+    .nut{
+        float:right;
+        margin: 5% 0;
+    }
+    .aboutme,.resume,.contact{
+        height:100%;
+    }
+    .face .avatar{
+        width: 100px;
+        height: 100px;
+    }
+    .background .face h3{
+        font-size:20px;
+    }
+    .aboutme p{
+        text-align:center;
+        width:auto;
+        display: block;
+    }
+    body{
+        overflow:unset;
+        width: 100%;
+        height: 100%;
+    }
+    .resume h2{
+        font-size:25px;
+    }
 }
-/*css cho chuyển động*/
+/*css cho chuyÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢n ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¹Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ng*/
 .info{
     perspective:500px;
     transform-style: preserve-3d;
@@ -301,4 +351,22 @@ body{
         transform: scale(1);
         opacity: 1;
     }
+}
+.contact input:focus-within{
+  outline: 0;
+}
+.contact input {
+    background-color: #26daff00;
+    color: white;
+    margin-bottom: 31px;
+    width: 100%;
+    height: 40px;
+}
+input[type=text],input[type=password],input[type=email],input[type=checkbox] {
+    color: #f3e9e9;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #eee;
+    margin: 10px 0;
 }
