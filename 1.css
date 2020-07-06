@@ -123,7 +123,6 @@
 .info .home,.aboutme,.resume,.contact {
     width: 100%;
     height: 100%;
-
     background-color: #578088;
     border-radius: 30px;
     text-align: center;
@@ -151,9 +150,6 @@ i.fa {
     font-weight: 300;
     color: #bbb;
 }
-
-h3.ten {}
-
 .face h3.ten {
     margin-top: 95px;
     font-weight: 600;
@@ -203,6 +199,10 @@ body{
 	transition: 0.4s;
     opacity: 0;
 
+}
+
+.contact{
+    opacity: 0!important;
 }
 .active{
 	opacity: 1;
