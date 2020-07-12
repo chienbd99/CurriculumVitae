@@ -9,6 +9,7 @@ router.get('/', function(req, res, next) {
 router.post('/contact',function(req,res,next){
   var content='email: '+req.body.email+' hỏi là: '+req.body.cauhoi+"\n";
   console.log(content);
+  alert("Cảm ơn "+req.body.email+" đã gửi câu hỏi mình sẽ phản hồi sớm nhất có thể <3");
   fs.writeFile('cauhoi'+req.body.email+'.txt', content , 'utf8', function (err){
      if (err)
       throw err;
